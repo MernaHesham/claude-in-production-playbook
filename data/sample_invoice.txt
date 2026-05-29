@@ -1,0 +1,101 @@
+================================================================================
+                              TAX INVOICE
+================================================================================
+
+INVOICE NUMBER:   INV-2026-04-0821
+INVOICE DATE:     15 April 2026
+DUE DATE:         15 May 2026
+PAYMENT TERMS:    Net 30 days
+
+--------------------------------------------------------------------------------
+FROM (Supplier):
+--------------------------------------------------------------------------------
+Meridian Software GmbH
+Kurfürstendamm 234
+10719 Berlin, Germany
+
+VAT ID:           DE298765432
+Commercial Register: Amtsgericht Charlottenburg HRB 201456 B
+IBAN:             DE89 3704 0044 0532 0130 00
+BIC/SWIFT:        COBADEFFXXX (Commerzbank AG, Frankfurt)
+Email:            accounts@meridian-software.de
+Phone:            +49 30 8872 4400
+
+--------------------------------------------------------------------------------
+TO (Client):
+--------------------------------------------------------------------------------
+Seliq AI Ltd
+15 Rue de la Paix
+75002 Paris, France
+
+VAT ID (EU):      FR48 789 456 321
+Contact:          Accounts Payable — finance@seliq.io
+PO Reference:     PO-2026-0214
+
+--------------------------------------------------------------------------------
+PROJECT REFERENCE: Custom API Integration — Seliq Analytics v3.2
+Contract Reference: MSA-2025-SEL-009 (Master Services Agreement dated 12 Jan 2025)
+--------------------------------------------------------------------------------
+
+LINE ITEMS
+--------------------------------------------------------------------------------
+
+No.  Description                              Qty      Unit Price     Amount
+---- ---------------------------------------- -------- -------------- ----------
+1    Custom API Integration Development        32 hrs   €185.00/hr     €5,920.00
+     Design, development and testing of
+     Pipedrive CRM native connector for
+     Seliq Analytics v3.2 platform.
+     Deliverables: connector source code,
+     unit tests, integration test suite,
+     technical documentation.
+
+2    Project Management & Coordination         8 hrs    €120.00/hr     €960.00
+     Sprint planning, stakeholder updates,
+     status reporting, and client calls
+     (4 x 1-hour calls + 4 hours admin).
+
+3    Code Review & Quality Assurance           1 flat   €450.00        €450.00
+     Independent security and quality code
+     review by senior engineer. Includes
+     written review report with findings
+     and sign-off certificate.
+
+--------------------------------------------------------------------------------
+
+                                             SUBTOTAL:          €7,330.00
+                                  German VAT (19%):          €1,392.70
+                                              TOTAL:          €8,722.70
+
+--------------------------------------------------------------------------------
+
+PAYMENT INSTRUCTIONS
+--------------------------------------------------------------------------------
+Please transfer the total amount of €8,722.70 to the bank account below by
+15 May 2026, quoting invoice number INV-2026-04-0821 as the payment reference.
+
+Bank:             Commerzbank AG
+Account Holder:   Meridian Software GmbH
+IBAN:             DE89 3704 0044 0532 0130 00
+BIC/SWIFT:        COBADEFFXXX
+Reference:        INV-2026-04-0821
+
+Late Payment: Invoices unpaid after the due date accrue interest at 8%
+above the ECB base rate per annum in accordance with §286 BGB.
+
+--------------------------------------------------------------------------------
+
+NOTES
+--------------------------------------------------------------------------------
+- This invoice is issued in EUR. Foreign exchange risk is borne by the client.
+- VAT is charged at the standard German rate of 19% as Meridian Software GmbH
+  is a German-registered entity. Seliq AI Ltd may apply the EU reverse-charge
+  mechanism using their FR VAT ID upon request — please contact us before payment.
+- All work was performed remotely from Berlin, Germany, in April 2026.
+- Source code and deliverables were transferred via Meridian's secure GitLab
+  instance. Access credentials provided separately under secure channel.
+
+--------------------------------------------------------------------------------
+Thank you for your business. For queries regarding this invoice, please contact
+accounts@meridian-software.de or call +49 30 8872 4400.
+================================================================================

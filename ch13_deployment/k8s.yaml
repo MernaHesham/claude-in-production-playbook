@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: claude-app
+  labels:
+    app: claude-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: claude-app
+  template:
+    metadata:
+      labels:
+        app: claude-app
+    spec:
+      containers:
+      - name: claude-app
+        image: europe-west1-docker.pkg.dev/PROJECT/repo/app:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: ANTHROPIC_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: anthropic-secret
+              key: api-key
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "500m"
+          limits:
+            memory: "1Gi"
+            cpu: "1000m"
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 10
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: claude-app-svc
+spec:
+  selector:
+    app: claude-app
+  ports:
+  - port: 80
+    targetPort: 8080
+  type: ClusterIP

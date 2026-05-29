@@ -1,0 +1,344 @@
+SELIQ ANALYTICS — PRODUCT KNOWLEDGE BASE
+==========================================
+Version 3.2 | Last Updated: May 2026
+
+---
+
+PRODUCT OVERVIEW
+----------------
+
+Seliq Analytics is a cloud-native Business Intelligence (BI) platform built specifically for European small and medium-sized enterprises (SMEs). Founded in 2021 and headquartered in Amsterdam, Seliq Analytics empowers growing businesses to transform raw operational data into actionable insights — without requiring a dedicated data engineering team.
+
+The platform offers an intuitive drag-and-drop dashboard builder, automated report scheduling, real-time data sync, and AI-assisted analysis powered by natural language queries. Customers can ask questions like "What were our top five products by revenue last quarter?" and receive instant visual answers drawn directly from their connected data sources.
+
+Seliq Analytics is designed with European data privacy requirements at its core. All data remains within EU borders (AWS eu-west-1, Dublin, Ireland), and the platform is fully GDPR-compliant out of the box. Customers retain full ownership of their data at all times, and Seliq Analytics will never monetise, share, or use customer data for any purpose other than delivering the contracted service.
+
+Key platform highlights:
+- No-code dashboard creation for non-technical users
+- AI-powered natural language query interface ("Ask Seliq")
+- Automated anomaly detection and alerting
+- Scheduled report delivery via email, Slack, or webhook
+- Role-based access control (RBAC) with granular permissions
+- White-label options for agencies and resellers
+- Full REST API for custom integrations and data exports
+- Mobile-responsive dashboards accessible on any device
+
+---
+
+PRICING PLANS
+-------------
+
+Seliq Analytics offers three subscription tiers, billed monthly or annually (annual billing provides a 20% discount). All plans include a 14-day free trial with full feature access and no credit card required.
+
+STARTER PLAN — €49 per month (€39/month billed annually)
+Ideal for small teams and early-stage businesses that need core analytics capabilities.
+- Up to 3 user seats
+- Up to 5 connected data sources
+- Up to 10 dashboards
+- Up to 500,000 data rows processed per month
+- Standard dashboard templates
+- Email-based customer support (48-hour response SLA)
+- 7-day data history
+- Community forum access
+
+GROWTH PLAN — €199 per month (€159/month billed annually)
+Designed for growing businesses that need collaboration features, more data volume, and advanced analytics.
+- Up to 15 user seats
+- Unlimited connected data sources
+- Unlimited dashboards
+- Up to 10 million data rows processed per month
+- Advanced dashboard templates and custom themes
+- AI-powered "Ask Seliq" natural language queries (100 queries/month)
+- Automated anomaly detection and email alerts
+- Scheduled report delivery (email and Slack)
+- Priority email and live chat support (4-hour response SLA)
+- 90-day data history
+- REST API access (rate-limited to 1,000 calls/day)
+- Webhook support for real-time notifications
+
+ENTERPRISE PLAN — Custom pricing (contact sales)
+For larger organisations that require maximum data capacity, SSO, custom SLAs, and dedicated support.
+- Unlimited user seats
+- Unlimited connected data sources
+- Unlimited dashboards and data rows
+- Unlimited AI queries ("Ask Seliq")
+- Custom data retention policies (up to 5 years)
+- Single Sign-On (SSO) via SAML 2.0 / Azure AD / Okta
+- Custom branding and white-label options
+- Dedicated Customer Success Manager
+- 99.9% uptime SLA with financial penalties
+- Priority phone, email, and live chat support (1-hour response SLA)
+- Dedicated onboarding and training sessions
+- Custom REST API rate limits
+- Advanced audit logging and compliance exports
+- Data Processing Agreement (DPA) with custom terms
+
+To request Enterprise pricing, contact our sales team at sales@seliq.io or book a call at seliq.io/enterprise.
+
+---
+
+SUPPORTED INTEGRATIONS
+-----------------------
+
+Seliq Analytics connects to over 120 data sources across seven categories. New integrations are added monthly; customers can vote on upcoming integrations via the public roadmap at roadmap.seliq.io.
+
+E-COMMERCE & PAYMENTS
+- Shopify, WooCommerce, Magento 2, PrestaShop, BigCommerce
+- Stripe, Mollie, Adyen, PayPal, Braintree, Square
+- Amazon Seller Central, eBay, Etsy
+
+CRM & MARKETING
+- HubSpot, Salesforce, Pipedrive, Zoho CRM, Freshsales
+- Mailchimp, Klaviyo, ActiveCampaign, Brevo (formerly Sendinblue)
+- Google Ads, Meta Ads, LinkedIn Ads, TikTok Ads
+
+DATABASES & DATA WAREHOUSES
+- PostgreSQL, MySQL, MariaDB, Microsoft SQL Server, Oracle
+- Amazon RDS, Amazon Redshift, Google BigQuery, Snowflake
+- MongoDB, Firebase Firestore, Airtable
+
+ERP & ACCOUNTING
+- Exact Online, DATEV, Xero, QuickBooks, Sage, Unit4
+- SAP Business One (via connector), Microsoft Dynamics 365
+
+PRODUCTIVITY & COLLABORATION
+- Google Sheets, Microsoft Excel Online
+- Notion (database tables), Airtable
+- Jira (project metrics), Linear, Asana
+
+CLOUD SERVICES
+- Amazon S3, Google Cloud Storage, Azure Blob Storage
+- Zapier and Make (Integromat) for no-code automation
+
+CUSTOM & DEVELOPER
+- REST API data sources (authenticated endpoints)
+- CSV/XLSX file uploads (manual or automated via SFTP)
+- Webhooks for real-time data ingestion
+- Custom SQL queries on connected databases
+
+Integration setup typically takes 5–30 minutes for standard connectors. Enterprise customers can request custom connector development for non-standard data sources; typical delivery time is 10–15 business days.
+
+---
+
+TECHNICAL REQUIREMENTS
+-----------------------
+
+Seliq Analytics is a fully cloud-hosted SaaS platform. There is no software to install on customer servers.
+
+BROWSER REQUIREMENTS
+- Google Chrome 95+ (recommended)
+- Mozilla Firefox 91+
+- Microsoft Edge 91+
+- Apple Safari 15+
+- Mobile browsers: iOS Safari 15+, Chrome for Android
+
+NETWORK REQUIREMENTS
+- Stable internet connection (minimum 5 Mbps recommended)
+- Outbound HTTPS (port 443) must be accessible to: *.seliq.io
+- For data source connectivity from your premises, outbound connections to Seliq's EU IP range may be required (IP list available in the help centre)
+
+EU DATA RESIDENCY
+- All customer data is stored and processed exclusively in AWS eu-west-1 (Dublin, Ireland)
+- Data never leaves the European Union
+- Seliq Analytics does not use sub-processors located outside the EU/EEA
+- A full list of sub-processors is maintained at seliq.io/legal/sub-processors
+
+---
+
+DATA PROCESSING & SECURITY
+----------------------------
+
+Seliq Analytics maintains the highest security standards for protecting customer data.
+
+CERTIFICATIONS & COMPLIANCE
+- SOC 2 Type II certified (audit reports available on request under NDA)
+- ISO 27001 certified (certificate number: IS-2024-0087)
+- GDPR compliant — acts as Data Processor; customers are Data Controllers
+- ePrivacy Directive compliant
+
+DATA ENCRYPTION
+- All data encrypted at rest using AES-256
+- All data in transit encrypted using TLS 1.2 or higher
+- Encryption keys managed via AWS KMS
+
+INFRASTRUCTURE
+- Hosted on Amazon Web Services (AWS) eu-west-1 region (Dublin, Ireland)
+- Multi-AZ deployment for high availability
+- Daily automated backups with 30-day retention
+- Point-in-time recovery available for Enterprise customers
+
+ACCESS CONTROLS
+- Role-based access control (Admin, Editor, Viewer)
+- Multi-factor authentication (MFA) supported and recommended
+- Single Sign-On (SSO) available on Enterprise plan
+- All user actions logged in an immutable audit trail
+
+PENETRATION TESTING
+- Annual third-party penetration tests conducted by certified security firms
+- Bug bounty programme at seliq.io/security
+
+GDPR DATA SUBJECT RIGHTS
+- Customers can submit data deletion requests via support@seliq.io or the in-app GDPR portal
+- Deletion requests are processed within 30 calendar days
+- Data export requests (Article 20 portability) are fulfilled within 72 hours
+
+---
+
+SUPPORT TIERS
+--------------
+
+COMMUNITY (Starter plan)
+- Community forum: community.seliq.io
+- Help centre: help.seliq.io (200+ articles)
+- Email support: support@seliq.io
+- Response time: 48 business hours
+
+PRIORITY (Growth plan)
+- All Community resources
+- Email support with 4-hour response SLA (Mon–Fri, 09:00–18:00 CET)
+- Live chat (business hours)
+- Monthly group webinars
+
+ENTERPRISE (Enterprise plan)
+- All Priority resources
+- Dedicated Customer Success Manager (named contact)
+- 1-hour response SLA, 24/7 for critical issues
+- Quarterly business reviews
+- Dedicated onboarding programme (up to 5 sessions)
+- Phone support line
+
+---
+
+COMMON ISSUES & RESOLUTIONS
+------------------------------
+
+ISSUE 1: Dashboard not loading / blank screen
+Symptom: User opens a dashboard and sees a blank page or spinning loader that never resolves.
+Cause: Typically caused by a cached session conflict, an expired authentication token, or a browser extension interfering with JavaScript.
+Resolution:
+1. Hard refresh the browser (Ctrl+Shift+R on Windows/Linux, Cmd+Shift+R on Mac).
+2. Clear browser cache and cookies for seliq.io.
+3. Try an incognito/private browsing window to rule out extension conflicts.
+4. If the issue persists, log out, wait 60 seconds, and log back in.
+5. If still unresolved, collect the browser console error log (F12 > Console) and submit it to support@seliq.io.
+
+ISSUE 2: Data source sync stopped / data appears stale
+Symptom: Dashboard data is not updating; "Last synced" timestamp is several hours or days old.
+Cause: The connection credentials for the data source have expired, the source API changed its authentication requirements, or the source has rate-limited Seliq's connector.
+Resolution:
+1. Navigate to Settings > Data Sources > [Source Name] > Edit Connection.
+2. Re-authenticate by clicking "Reconnect" and following the OAuth flow or re-entering API credentials.
+3. Click "Sync Now" to trigger an immediate sync.
+4. If the sync fails, check the error message displayed on the data source card. Common errors: "401 Unauthorized" (credentials expired), "429 Too Many Requests" (rate limit — retry in 1 hour), "Connection refused" (source server may be down).
+5. Contact support if the issue persists after re-authentication.
+
+ISSUE 3: API key not working / 401 errors
+Symptom: Calls to the Seliq REST API return 401 Unauthorized.
+Cause: The API key has been rotated, the wrong key is being used, or the key lacks the required permissions.
+Resolution:
+1. Go to Settings > API & Integrations > API Keys.
+2. Verify the key being used matches what is displayed (only the last 4 characters are shown for security — generate a new key if unsure).
+3. Ensure the API key has the required scopes for the endpoint being called (check API documentation at api.seliq.io/docs).
+4. Regenerate the API key if necessary (old key is immediately invalidated upon regeneration).
+5. For webhook or Zapier integrations, update the key in the connected service after regeneration.
+
+ISSUE 4: Password reset email not arriving
+Symptom: User requested a password reset but has not received the email.
+Cause: Email delivery delay, spam filter, or email address not associated with a Seliq account.
+Resolution:
+1. Check the spam/junk folder and any email filtering rules.
+2. Wait up to 10 minutes — delivery can be delayed during high-traffic periods.
+3. Verify the email address is the one registered with Seliq (the reset will silently fail if the address does not match any account, as a security measure).
+4. If still not received after 15 minutes, contact support@seliq.io with the email address used, and support can manually trigger the reset or verify account ownership.
+
+ISSUE 5: Mobile app crashes on launch
+Symptom: The Seliq mobile app (iOS or Android) crashes immediately on launch or after logging in.
+Cause: Outdated app version, corrupted local cache, or OS compatibility issue.
+Resolution:
+1. Update the Seliq app to the latest version from the App Store or Google Play.
+2. If already on the latest version, force-close the app and reopen.
+3. Clear the app cache: iOS (Settings > Seliq > Clear Cache), Android (Settings > Apps > Seliq > Storage > Clear Cache).
+4. Uninstall and reinstall the app as a last resort (local preferences will be cleared but account data is unaffected).
+5. Minimum supported versions: iOS 15 / Android 10. Older OS versions are not supported.
+
+---
+
+CANCELLATION POLICY
+---------------------
+
+Customers may cancel their Seliq Analytics subscription at any time from Settings > Billing > Cancel Subscription.
+
+Monthly plans: Cancellation takes effect at the end of the current billing period. No refunds are issued for partial months.
+
+Annual plans: Cancellation takes effect at the end of the annual billing period. Refunds for unused months are available within the first 30 days of purchase (pro-rated). After 30 days, no refunds are issued for the remaining term, but access continues until the period ends.
+
+Data retention after cancellation: Customer data is retained for 60 days after cancellation to allow for re-subscription or data export. After 60 days, all data is permanently deleted from Seliq's systems.
+
+To request a data export before cancellation, use the Export All Data function under Settings > Data Management, or contact support@seliq.io.
+
+---
+
+ONBOARDING CHECKLIST
+----------------------
+
+New customers are encouraged to complete the following steps within their first 7 days to ensure a successful setup:
+
+1. Invite team members (Settings > Team > Invite Users)
+2. Connect your first data source (Settings > Data Sources > Add New)
+3. Explore the pre-built dashboard templates (Templates Library)
+4. Create your first custom dashboard using the drag-and-drop builder
+5. Set up an automated report (Reports > Schedule Report)
+6. Configure alert thresholds for key metrics (Alerts > Create Alert)
+7. Review RBAC permissions for your team (Settings > Team > Roles)
+8. Enable MFA for your admin account (Settings > Security > Multi-Factor Authentication)
+9. Book an optional onboarding call with the Customer Success team (Growth/Enterprise plans)
+
+The onboarding guide is available in full at help.seliq.io/getting-started.
+
+---
+
+PRODUCT ROADMAP — 2026
+------------------------
+
+Q2 2026 (April–June)
+- Pipedrive CRM native integration (voted #1 by customers)
+- Slack slash commands for quick metric lookups
+- Dashboard export to PDF and PowerPoint
+- Improved mobile app with offline mode for cached dashboards
+
+Q3 2026 (July–September)
+- Native REST API data export endpoint (Growth and Enterprise)
+- Azure Active Directory (Azure AD) SSO support
+- Multi-currency reporting for e-commerce customers
+- Advanced cohort analysis module
+
+Q4 2026 (October–December)
+- AI anomaly root-cause explanations ("Ask Seliq Pro")
+- Collaborative dashboard comments and annotations
+- Google Looker Studio connector
+- EU-West-3 (Paris) secondary region option for French enterprise customers
+
+Feature requests and votes: roadmap.seliq.io
+
+---
+
+CONTACT INFORMATION
+--------------------
+
+General enquiries: hello@seliq.io
+Customer support: support@seliq.io
+Sales and enterprise: sales@seliq.io
+Security issues: security@seliq.io
+Legal and DPA: legal@seliq.io
+
+Website: www.seliq.io
+Help centre: help.seliq.io
+API documentation: api.seliq.io/docs
+Community forum: community.seliq.io
+Status page: status.seliq.io
+
+Registered office: Seliq Analytics B.V., Herengracht 182, 1016 BP Amsterdam, Netherlands
+KvK (Chamber of Commerce): 87654321
+VAT number: NL864208531B01
+
+Support hours: Monday–Friday, 09:00–18:00 CET (Priority and Enterprise plans receive extended coverage)

@@ -1,0 +1,82 @@
+[
+  {
+    "prompt": "Hi, I was charged twice for my subscription this month. I see two identical transactions of €49 on my bank statement for 3 April. Can you please refund one of them?",
+    "expected": "billing"
+  },
+  {
+    "prompt": "I need a proper invoice with our company VAT number on it for last month's payment. Our finance department requires it for tax purposes. Our VAT ID is FR48789456321.",
+    "expected": "billing"
+  },
+  {
+    "prompt": "We are thinking about switching from our monthly plan to an annual subscription. Is there a discount available and how would the billing work mid-cycle?",
+    "expected": "billing"
+  },
+  {
+    "prompt": "I cancelled our Growth plan account last week but I would like to request a refund for the remaining 18 days of the billing period. We didn't use the service much this month.",
+    "expected": "billing"
+  },
+  {
+    "prompt": "Our team has grown and we are now over the 15-seat limit on the Growth plan. I would like to understand the pricing for the Enterprise plan and get a quote for 40 users.",
+    "expected": "billing"
+  },
+  {
+    "prompt": "My dashboard has been showing a blank white screen since this morning. I tried refreshing and clearing my cache but it still doesn't load. The page just spins forever.",
+    "expected": "technical"
+  },
+  {
+    "prompt": "Our Shopify integration stopped syncing about 6 hours ago. The last successful sync was at 03:00 this morning and since then the data on all our dashboards is stale. We've already tried reconnecting.",
+    "expected": "technical"
+  },
+  {
+    "prompt": "I'm getting a 401 Unauthorized error every time I try to call the Seliq API. I copied the API key directly from the settings page so I'm not sure what's going wrong.",
+    "expected": "technical"
+  },
+  {
+    "prompt": "The Seliq app on my iPhone keeps crashing as soon as I log in. I'm on iOS 16 and I've already tried reinstalling the app twice today.",
+    "expected": "technical"
+  },
+  {
+    "prompt": "I requested a password reset 30 minutes ago but I haven't received any email yet. I checked my spam folder and there's nothing there either.",
+    "expected": "technical"
+  },
+  {
+    "prompt": "Our PostgreSQL data source connection is timing out. We can connect from our office network manually but the Seliq connector keeps failing with a 'connection refused' error.",
+    "expected": "technical"
+  },
+  {
+    "prompt": "Would it be possible to add a native Slack integration so our team can query metrics directly from Slack using a slash command like /seliq revenue?",
+    "expected": "feature"
+  },
+  {
+    "prompt": "Is there an API endpoint we can use to programmatically export our dashboard data as CSV or JSON? We want to pull data into our own data warehouse nightly.",
+    "expected": "feature"
+  },
+  {
+    "prompt": "Our IT team requires Single Sign-On via Azure Active Directory before we can roll this out company-wide. Is SSO on the roadmap and when can we expect it?",
+    "expected": "feature"
+  },
+  {
+    "prompt": "We use Pipedrive as our CRM and it would be incredibly useful to connect it to our Seliq dashboards. Is there a Pipedrive integration available or planned?",
+    "expected": "feature"
+  },
+  {
+    "prompt": "It would be really helpful if multiple team members could leave comments directly on dashboard charts to discuss the data without having to switch to Slack. Any plans for this?",
+    "expected": "feature"
+  },
+  {
+    "prompt": "Can you explain exactly what is included in the Enterprise plan? I need to understand what we get in terms of support, data limits, and customisation before presenting this to our board.",
+    "expected": "general"
+  },
+  {
+    "prompt": "We have received a data subject access request from a former employee asking us to delete all their personal data from your platform. How do we submit a GDPR deletion request?",
+    "expected": "general"
+  },
+  {
+    "prompt": "I submitted a support ticket 5 days ago and haven't heard back yet. This is blocking our go-live next week. Is there a way to escalate urgent issues?",
+    "expected": "general"
+  },
+  {
+    "prompt": "Where can I find documentation on how your platform handles data residency? Our legal team needs to confirm that no data leaves the EU before we can sign the contract.",
+    "expected": "general"
+  }
+]
